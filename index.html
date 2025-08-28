@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Тренажёр видения шахматной доски</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Какой цвет клетки шахматной доски?</h1>
+    <h2>Тренируй видение шахматной доски и становись чемпионом! &#x1F3C6;</h2>
+
+    <!-- Timer selection -->
+    <div class="timer-controls">
+      <button class="timer-btn" data-time="30" data-questions="32">30сек (32 ?)</button>
+      <button class="timer-btn" data-time="60" data-questions="64">1мин (64 ?)</button>
+    </div>
+
+    <!-- Chess square notation -->
+    <div class="square-container">
+      <div id="square-display" class="square-display">e4</div>
+    </div>
+
+    <!-- White / Black buttons -->
+    <div class="buttons">
+      <button id="btn-white" class="answer-btn white">Белый</button>
+      <button id="btn-black" class="answer-btn black">Чёрный</button>
+    </div>
+
+    <!-- Start button -->
+    <div class="start-container">
+      <button id="btn-start" class="start-btn">Старт</button>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="progress-container">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+
+    <!-- Scoreboard -->
+    <div class="scoreboard">
+      <p>Правильно: <span id="correct-count">0</span></p>
+      <p>Неправильно: <span id="wrong-count">0</span></p>
+      <p>Осталось времени: <span id="time-left">0</span> секунд</p>
+      <p>Осталось ?: <span id="questions-left">0</span></p>
+    </div>
+
+    <!-- Result -->
+    <div class="result" id="result"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
