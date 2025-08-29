@@ -1,4 +1,4 @@
-# Chessboard-vision-App_HTML5_CSS3_JavaScript_Python
+# Chessboard-Vision-App_HTML5_CSS3_JavaScript_Python
 
 Chessboard Vision App will train and improve chessboard vision for chess newbies, especially kids. My app" is intended to train underrated basic skill for each newbie chess player, namely chessboard vision - ability to visualize chessboard in mind's eye and tell what is the color of each square at the chessboard without looking at the chessboard (for example, "e2 square is black"). Developed chessboard vision skill is one of the most crucial skills for young chess players. This app will help millions of newbie chess players, above all kids, to play chess better and win more often and finally become chess champions.
 
